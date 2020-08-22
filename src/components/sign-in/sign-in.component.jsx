@@ -26,7 +26,9 @@ export class SignIn extends Component {
             this.setState({
             email: '',
             password: ''
-        })
+            })
+
+            
         }catch(err) {
             console.log(err);
         }
